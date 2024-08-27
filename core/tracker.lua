@@ -15,6 +15,7 @@ local tracker = {
     exit_horde_completed = true,
     wave_start_time = 0,
     needs_salvage = false,
+    force_horde_start = false,  -- New flag to force start a new horde
 }
 
 function tracker.check_time(key, delay)
